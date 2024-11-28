@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import html from "../../../public/images/html.png";
-import css from "../../../public/images/css.png";
-import typescript from "../../../public/images/typescript.png";
-import next from "../../../public/images/next.png";
-import python from "../../../public/images/python.png";
+import html from "../../../public/images/html1.png";
+import css from "../../../public/images/css1.png";
+import typescript from "../../../public/images/typescript1.png";
+import next from "../../../public/images/next1.png";
+import python from "../../../public/images/python1.png";
 
 interface DT {
     name: string;
