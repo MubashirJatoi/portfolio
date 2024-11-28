@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
-import Image from "next/image";
+import Image, {StaticImageData} from "next/image";
 import HTML from "../../../public/Images/html1.png";
 import CSS from "../../../public/Images/css1.png";
 import Typescript from "../../../public/Images/typescript1.png";
@@ -10,7 +10,7 @@ import Python from "../../../public/Images/python1.png";
 interface DT {
     name: string;
     progress: number;
-    icon: any;
+    icon: StaticImageData;
 }
 
 function Skills() {
