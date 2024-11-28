@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import html from "../../../public/images/html1.png";
 import css from "../../../public/images/css1.png";
 import typescript from "../../../public/images/typescript1.png";
@@ -10,7 +10,7 @@ import python from "../../../public/images/python1.png";
 interface DT {
     name: string;
     progress: number;
-    icon: any;
+    icon: StaticImageData;
 }
 
 function Skills() {
@@ -37,7 +37,7 @@ function Skills() {
                     }
                 });
             },
-            { threshold: 0.5 } // Trigger when at least 50% of the element is visible
+            { threshold: 0.5 }
         );
 
         circularProgressRefs.current.forEach((ref) => {
