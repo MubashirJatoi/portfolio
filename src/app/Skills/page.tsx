@@ -5,7 +5,7 @@ import HTML from "../../../public/Images/html1.png";
 import CSS from "../../../public/Images/css1.png";
 import Typescript from "../../../public/Images/typescript1.png";
 import Next from "../../../public/Images/next1.png";
-import Python from "../../../public/Images/pthon1.png";
+import Python from "../../../public/Images/python1.png";
 
 interface DT {
     name: string;
