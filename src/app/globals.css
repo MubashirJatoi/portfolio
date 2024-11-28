@@ -13,10 +13,10 @@
     justify-content: space-between;
     font-family: "Segoe UI", "Roboto";
     background-color: #121212;
-    height: 80;
+    height: 80px;
     align-items: center;
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
     z-index: 100;
 }
@@ -24,7 +24,7 @@
 .links-parent {
     display: flex;
     gap: 60px;
-    font-size: 20;
+    font-size: 20px;
     background-color: transparent;
 }
 
@@ -40,13 +40,13 @@
 
 .hire-me {
     background: linear-gradient(to right, #FD6F00, #E46400);
-    border-radius: 8;
-    width: 141;
-    height: 43;
+    border-radius: 8px;
+    width: 141px;
+    height: 43px;
     color: #FFFFFF;
     border: #FD6F00;
     margin-right: 50px;
-    font-size: 16;
+    font-size: 16px;
     cursor: pointer;
 }
 
