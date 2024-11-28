@@ -69,10 +69,10 @@ function Skills() {
     };
 
     return (
-        <div className="container flex pt-[120px] justify-center gap-[30px]">
+        <div className="container">
             {skills.map((skill, index) => (
                 <div
-                    className="circular-progress relative h-[100px] w-[100px] rounded-[50%] bg-[conic-gradient(#FD6F00_3.6deg,_#3A3A3A_0deg)] flex items-center justify-center text-center"
+                    className="circular-progress"
                     ref={(el) => {circularProgressRefs.current[index] = el}}
                     key={skill.name}
                 >
@@ -81,10 +81,10 @@ function Skills() {
                         alt="icon"
                         width={30}
                         height={30}
-                        className="icoon absolute top-[35px] bg-transparent [filter:brightness(0)_saturate(100%)_invert(59%)_sepia(6%)_saturate(4%)_hue-rotate(0deg)_brightness(90%)_contrast(100%)]"
+                        className="icoon"
                     />
-                    <span className="progress-value mt-[150px] absolute text-[20px] font-[600] text-[#FD6F00]">0%</span>
-                    <h2 className="text absolute mt-[180px] bottom-[-58px] text-[16px] font-[500] text-[#606060]">{skill.name}</h2>
+                    <span className="progress-value">0%</span>
+                    <h2 className="text">{skill.name}</h2>
                 </div>
             ))}
         </div>
