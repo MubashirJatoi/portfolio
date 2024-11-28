@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useRef } from "react";
 import Image, { StaticImageData } from "next/image";
-import html from "../../../public/images/html1.png";
-import css from "../../../public/images/css1.png";
-import typescript from "../../../public/images/typescript1.png";
-import next from "../../../public/images/next1.png";
-import python from "../../../public/images/python1.png";
+import html1 from "../../../public/images/html1.png";
+import css1 from "../../../public/images/css1.png";
+import typescript1 from "../../../public/images/typescript1.png";
+import next1 from "../../../public/images/next1.png";
+import python1 from "../../../public/images/python1.png";
 
 interface DT {
     name: string;
@@ -15,11 +15,11 @@ interface DT {
 
 function Skills() {
     const skills: DT[] = [
-        { name: "HTML", progress: 100, icon: html },
-        { name: "CSS", progress: 80, icon: css },
-        { name: "TypeScript", progress: 60, icon: typescript },
-        { name: "Next.js", progress: 50, icon: next },
-        { name: "Python", progress: 10, icon: python },
+        { name: "HTML", progress: 100, icon: html1 },
+        { name: "CSS", progress: 80, icon: css1 },
+        { name: "TypeScript", progress: 60, icon: typescript1 },
+        { name: "Next.js", progress: 50, icon: next1 },
+        { name: "Python", progress: 10, icon: python1 },
     ];
     const circularProgressRefs = useRef<(HTMLDivElement | null)[]>([]);
 
